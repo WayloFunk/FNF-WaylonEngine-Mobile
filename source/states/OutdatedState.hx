@@ -19,9 +19,9 @@ class OutdatedState extends MusicBeatState
 			"Sup " + bro + ", looks like you're running an   \n
 			outdated version of Psych Engine (" + MainMenuState.psychEngineVersion + "),\n
 			please update to " + TitleState.updateVersion + "!\n
-			Press " + escape + " to proceed anyway.\n
+			Press " + B + " to proceed anyway.\n
 			\n
-			Thank you for using the Port!",
+			Thank you for using Waylon Engine!",
 			32);
 		warnText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER);
 		warnText.screenCenter(Y);
@@ -35,7 +35,7 @@ class OutdatedState extends MusicBeatState
 		if(!leftState) {
 			if (controls.ACCEPT) {
 				leftState = true;
-				CoolUtil.browserLoad("https://github.com/MobilePorting/FNF-PsychEngine-Mobile/releases");
+				CoolUtil.browserLoad("https://github.com/waylofunk/FNF-WaylonEngine-Mobile/releases");
 			}
 			else if(controls.BACK) {
 				leftState = true;
