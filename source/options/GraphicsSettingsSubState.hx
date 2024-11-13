@@ -14,8 +14,8 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 		boyfriend = new Character(840, 170, 'WaylonREM', true);
 		boyfriend.setGraphicSize(Std.int(boyfriend.width * 0.75));
 		boyfriend.updateHitbox();
-		boyfriend.idle();
-		boyfriend.animation.finishCallback = function (name:String) boyfriend.idle();
+		boyfriend.yay();
+		boyfriend.animation.finishCallback = function (name:String) boyfriend.yay();
 		boyfriend.visible = false;
 
 		//I'd suggest using "Low Quality" as an example for making your own option since it is the simplest here
