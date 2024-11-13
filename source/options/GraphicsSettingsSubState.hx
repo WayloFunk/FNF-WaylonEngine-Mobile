@@ -11,11 +11,11 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 		title = Language.getPhrase('graphics_menu', 'Graphics Settings');
 		rpcTitle = 'Graphics Settings Menu'; //for Discord Rich Presence
 
-		boyfriend = new Character(840, 170, 'bf', true);
+		boyfriend = new Character(840, 170, 'WaylonREM', true);
 		boyfriend.setGraphicSize(Std.int(boyfriend.width * 0.75));
 		boyfriend.updateHitbox();
-		boyfriend.dance();
-		boyfriend.animation.finishCallback = function (name:String) boyfriend.dance();
+		boyfriend.idle();
+		boyfriend.animation.finishCallback = function (name:String) boyfriend.idle();
 		boyfriend.visible = false;
 
 		//I'd suggest using "Low Quality" as an example for making your own option since it is the simplest here
@@ -47,7 +47,7 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 
 		#if !html5 //Apparently other framerates isn't correctly supported on Browser? Probably it has some V-Sync shit enabled by default, idk
 		var option:Option = new Option('Framerate',
-			"Pretty self explanatory, isn't it?",
+			"I dont think this works on iPhone",
 			'framerate',
 			INT);
 		addOption(option);
