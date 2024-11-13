@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Idk.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="bump0000" x="0" y="484" width="751" height="464" frameX="-34" frameY="-25" frameWidth="822" frameHeight="520"/>
+	<SubTexture name="bump0001" x="782" y="0" width="768" height="475" frameX="-27" frameY="-20" frameWidth="822" frameHeight="520"/>
+	<SubTexture name="bump0002" x="0" y="0" width="782" height="484" frameX="-20" frameY="-16" frameWidth="822" frameHeight="520"/>
+	<SubTexture name="bump0003" x="782" y="0" width="768" height="475" frameX="-27" frameY="-20" frameWidth="822" frameHeight="520"/>
+</TextureAtlas>
