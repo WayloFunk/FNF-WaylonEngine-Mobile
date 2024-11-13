@@ -252,8 +252,8 @@ class TitleState extends MusicBeatState
 	var characterImage:String = 'gfDanceTitle';
 	var animationName:String = 'gfDance';
 
-	var gfPosition:FlxPoint = FlxPoint.get(512, 40);
-	var logoPosition:FlxPoint = FlxPoint.get(-150, -100);
+	var gfPosition:FlxPoint = FlxPoint.get(0, 40);
+	var logoPosition:FlxPoint = FlxPoint.get(0, -100);
 	var enterPosition:FlxPoint = FlxPoint.get(100, 576);
 	
 	var useIdle:Bool = false;
@@ -558,10 +558,9 @@ class TitleState extends MusicBeatState
 					FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
 					FlxG.sound.music.fadeIn(4, 0, 0.7);
 				case 2:
-					createCoolText(['Psych Engine by'], 40);
+					createCoolText(['Waylon Engine by'], 40);
 				case 4:
-					addMoreText('Shadow Mario', 40);
-					addMoreText('Riveren', 40);
+					addMoreText('Waylon', 40);
 				case 5:
 					deleteCoolText();
 				case 6:
