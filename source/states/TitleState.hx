@@ -253,7 +253,7 @@ class TitleState extends MusicBeatState
 	var animationName:String = 'gfDance';
 
 	var gfPosition:FlxPoint = FlxPoint.get(0, 40);
-	var logoPosition:FlxPoint = FlxPoint.get(-300, -150);
+	var logoPosition:FlxPoint = FlxPoint.get(100, 200);
 	var enterPosition:FlxPoint = FlxPoint.get(100, 576);
 	
 	var useIdle:Bool = false;
