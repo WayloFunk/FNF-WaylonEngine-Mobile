@@ -187,7 +187,7 @@ class TitleState extends MusicBeatState
 		}
 		else
 		{
-			gfDance.animation.addByPrefix('idle', animationname, 24, false);
+			gfDance.animation.addByPrefix('idle', animationName, 24, false);
 			gfDance.animation.play('idle');
 		}
 
