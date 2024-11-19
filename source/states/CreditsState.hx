@@ -37,10 +37,7 @@ class CreditsState extends MusicBeatState
 		for (mod in Mods.parseList().enabled) pushModCreditsToList(mod);
 		#end
 
-		var defaultList:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
-			["Waylon Engine "],
-			["Waylon", "waylon", "", "https://youtube.com/@waylonstudios?si=ERNNK7P9vw6RGggc", "FFA500"]
-			['Mobile Porting Team'],
+		var defaultList:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG 
 			['mcagabe19',			'lily',             'Head Porter of Psych Engine and Author of linc_luajit-rewriten',                       'https://youtube.com/@mcagabe19',		'FFE7C0'],
 			['Karim Akra',			'karim',			'Second Porter of Psych Engine',						'https://youtube.com/@Karim0690',		'FFB4F0'],
 			['Moxie',				'moxie',			'Helper of Psych Engine Mobile',							'https://twitter.com/moxie_specalist',  'F592C4'],
